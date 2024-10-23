@@ -2,10 +2,23 @@
     * {
         font-size: 14px;
     }
-    
-    section {
+
+    header,
+    #s1,
+    #s3,
+    #s4,
+    #s5,
+    #s6,
+    #s7,
+    #s8,
+    #s9 {
         width: 100%;
         padding: 25px 50px;
+    }
+
+    header,
+    #s2 {
+        padding: 0px;
     }
 
     .heading {
@@ -38,7 +51,7 @@
         background-color: #AC045C;
     }
 
-    #s2{
+    #s2 {
         padding: 25px;
     }
 
@@ -47,17 +60,27 @@
         letter-spacing: 8px;
     }
 
-    #s2-img1,#s2-img2, #s2-img3, #s2-img4{
-        width: 100%;
-        border-Radius: 34px;
-        margin: 12.5px;
+    .swiper {
+        max-width: 1024px;
+        max-height: 550px;
+    }
+
+
+    #s2-img1,
+    #s2-img2,
+    #s2-img3,
+    #s2-img4 {
+        border-Radius: 30px;
     }
 
     .s3-subheading {
         font-size: 18px;
     }
 
-    #s3-img1,#s3-img2, #s3-img3, #s3-img4{
+    #s3-img1,
+    #s3-img2,
+    #s3-img3,
+    #s3-img4 {
         width: 50%;
         border-radius: 24px;
         margin: 7.25px;
@@ -67,36 +90,36 @@
         padding: 25px;
     }
 
-    .s5-c1{
+    .s5-c1 {
         gap: 12.5px;
     }
 
     .s5-sc1 {
         width: 80%;
     }
-    
-    .s5-img{
+
+    .s5-img {
         width: 30%;
         border-radius: 24px;
     }
-    
-    .s5-ssc1{
+
+    .s5-ssc1 {
         width: 50%;
     }
-    
+
     .s6-sc1 {
         gap: 12.5px;
     }
-    
-    .s6-img{
+
+    .s6-img {
         width: 35%;
         border-radius: 25px;
     }
-    
-    .s6-ssc1{
+
+    .s6-ssc1 {
         width: 70%;
     }
-    
+
     #s6-line {
         color: #AC045C;
         font-size: 16px;
@@ -106,11 +129,11 @@
         width: 87.5%;
     }
 
-    #s8{
+    #s8 {
         padding: 25px;
     }
 
-    #s8-heading{
+    #s8-heading {
         font-size: 36px;
     }
 
@@ -125,13 +148,13 @@
         align-self: flex-start;
         animation: v1 linear;
     }
-    
+
     #s9-para {
         width: 55%;
         font-size: 16px;
         text-align: justify;
     }
-    
+
     .s9-sh1 {
         font-size: 20px;
         color: #AC045C;
@@ -145,8 +168,22 @@
         font-size: 12px;
     }
 
-    section {
+    header,
+    #s1,
+    #s3,
+    #s4,
+    #s5,
+    #s6,
+    #s7,
+    #s8,
+    #s9 {
+        width: 100%;
         padding: 25px;
+    }
+
+    header,
+    #s2 {
+        padding: 0px;
     }
 
     #header_img {
@@ -186,14 +223,30 @@
         margin-top: 5px;
     }
 
-    #s2{
+    #s2 {
         padding: 12.5px;
     }
 
-    #s2-img1,#s2-img2, #s2-img3, #s2-img4{
+    #s2-img1,
+    #s2-img2,
+    #s2-img3,
+    #s2-img4 {
         width: 100%;
         border-Radius: 20px;
-        margin: 7.25px;
+    }
+
+    .swiper {
+        width: 100%;
+        max-width: 600px;
+        height: 50%;
+        max-height: 400px;
+    }
+
+    #s2-img1,
+    #s2-img2,
+    #s2-img3,
+    #s2-img4 {
+        border-Radius: 20px;
     }
 
     #s3-heading {
@@ -204,31 +257,36 @@
         font-size: 14px;
     }
 
-    #s3-img1,#s3-img2, #s3-img3, #s3-img4{
+    #s3-img1,
+    #s3-img2,
+    #s3-img3,
+    #s3-img4 {
         width: 50%;
         border-radius: 16px;
         margin: 7.25px;
     }
 
-    #s4{
+    #s4 {
         gap: 12.5px;
         padding: 12.5px;
     }
 
-    #s5,#s6,#s7{
-        gap:12.5px
+    #s5,
+    #s6,
+    #s7 {
+        gap: 12.5px
     }
 
     .s5-sc1 {
         width: 80%;
     }
-    
-    .s5-img{
+
+    .s5-img {
         width: 45%;
         border-radius: 20px;
     }
-    
-    .s5-ssc1{
+
+    .s5-ssc1 {
         width: 70%;
     }
 
@@ -239,31 +297,31 @@
         align-items: center;
         gap: 25px;
     }
-    
+
     .s6-c1 {
         gap: 12.5px;
     }
-    
+
     .s6-sc1 {
         flex-direction: column;
         gap: 12.5px;
     }
-    
-    .s6-img{
+
+    .s6-img {
         width: 60%;
         border-radius: 18px;
     }
-    
-    .s6-ssc1{
+
+    .s6-ssc1 {
         width: 90%;
     }
-    
+
     #s6-line {
         color: #AC045C;
         font-size: 14px;
     }
 
-    #s7{
+    #s7 {
         padding: 12.5px;
     }
 
@@ -271,7 +329,7 @@
         width: 87.5%;
     }
 
-    #s8{
+    #s8 {
         padding: 0px 25px;
     }
 
@@ -283,7 +341,7 @@
         padding: 25px;
     }
 
-    #s8-heading{
+    #s8-heading {
         font-size: 24px;
         justify-items: center;
     }
