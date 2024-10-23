@@ -19,19 +19,21 @@ body {
 
 header,
 #s1,
+#s2,
 #s3,
 #s4,
+#s5,
 #s6,
 #s7,
 #s8,
 #s9 {
-    max-width: 1560px;
     width: 100%;
+    max-width: 1560px;
+    height: fit-content;
     padding: 50px 100px;
 }
 
-header,
-#s2, #s5{
+header{
     padding: 0px;
 }
 
@@ -60,6 +62,19 @@ main {
     font-size: 24px;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Section 1 */
 
 .s1-c1 {
@@ -84,6 +99,7 @@ main {
 #s1-img1 {
     width: 100%;
     z-index: 100;
+    position: relative;
     align-self:flex-end;
 }
 
@@ -110,8 +126,17 @@ main {
 }
 
 /* section */
+
+.myswiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #s2 {
     width: 100%;
+    max-width: 1440px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,36 +149,15 @@ main {
     margin-bottom: 10px;
 }
 
-.swiper {
-    width: 100%;
-    max-width: 1100px;
-    height: 100%;
-    max-height: 600px;
-
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 #s2-img1,
 #s2-img2,
 #s2-img3,
 #s2-img4 {
+    width: 100%;
+    height: 100%;
     border-Radius: 40px;
 }
+
 
 #s3 {
     display: flex;
@@ -222,53 +226,35 @@ main {
 }
 
 #s5 {
-    width: 100%;
-    max-width: 1560px;
-    padding: 50px 25px;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 25px;
+
 }
 
 #s5-heading{
-    margin: 50px;
     align-self: flex-start;
 }
-
-.swiper2 {
-    width: 100%;
-    height: auto; /* Ensure height is adaptable */
-}
-
-.swiper-wrapper {
-    display: flex;
-}
-
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .s5-sc1 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
     gap: 12.5px;
 }
 
 .s5-img {
-    width: 50%;
+    width: 100%;
     max-width: 200px;
     border-radius: 28px;
 }
 
 .s5-ssc1 {
-    width: 50%;
+    width: 100%;
     max-width: 300px;
 }
 

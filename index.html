@@ -69,10 +69,18 @@
             </h1>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <img src="./asset/s2/s2-img1.png" alt="s2-img1" id="s2-img1" class="swiper-slide">
-                    <img src="./asset/s2/s2-img2.png" alt="s2-img2" id="s2-img2" class="swiper-slide">
-                    <img src="./asset/s2/s2-img3.png" alt="s2-img3" id="s2-img3" class="swiper-slide">
-                    <img src="./asset/s2/s2-img4.png" alt="s2-img4" id="s2-img4" class="swiper-slide">
+                    <div class="swiper-slide">
+                        <img src="./asset/s2/s2-img1.png" alt="s2-img1" id="s2-img1" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./asset/s2/s2-img2.png" alt="s2-img2" id="s2-img2" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./asset/s2/s2-img3.png" alt="s2-img3" id="s2-img3" >
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./asset/s2/s2-img4.png" alt="s2-img4" id="s2-img4" >
+                    </div>
                 </div>
             </div>
         </section>
@@ -104,7 +112,7 @@
         </section>
         <section id="s5">
             <h1 class="heading" id="s5-heading">WELCOME ONBOARD</h1>
-            <div class="swiper2 mySwiper2">
+            <div class="swiper mySwiper2">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="s5-sc1">
@@ -344,6 +352,7 @@
     </main>
     <!-- Initialize Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             direction: "vertical",
@@ -352,30 +361,16 @@
             },
             loop: true,
             slidesPerView: 1,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
         });
 
         var swiper2 = new Swiper(".mySwiper2", {
             slidesPerView: 2,
-            spaceBetween: 10,
             loop: true,
             autoplay: {
                 delay: 5000,
                 disableOnInteraction: false,
-            },
-            breakpoints: {
-                640: {
-                    slidesPerView: 1,
-                },
-                1024: {
-                    slidesPerView: 2,
-                }
             }
         });
-
     </script>
 </body>
 
