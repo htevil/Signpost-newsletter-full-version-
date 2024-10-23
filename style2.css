@@ -198,6 +198,10 @@
         text-align: center;
     }
 
+    .sub-heading{
+        font-size: 14px;
+    }
+
     .s1-c1 {
         flex-direction: column;
     }
@@ -257,7 +261,7 @@
 
 
     #s3-heading {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .s3-subheading {
@@ -295,7 +299,7 @@
     }
 
     .s5-ssc1 {
-        width: 100%;
+        width: 80%;
     }
 
     #s6 {
