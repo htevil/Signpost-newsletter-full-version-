@@ -1,6 +1,7 @@
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1150px) {
     * {
         font-size: 14px;
+        line-height: 1.10;
     }
 
     header,
@@ -22,7 +23,7 @@
     }
 
     .heading {
-        font-size: 40px;
+        font-size: 48px;
         letter-spacing: 2px;
     }
 
@@ -30,25 +31,32 @@
         font-size: 18px;
     }
 
-    .s1-c1 {
-        gap: 5px
-    }
-
-    #s1-img1 {
-        width: 100%;
-        max-width: 360px;
-        min-width: 200px;
+      /* section1 */
+    #s1{
+        padding: 25px;
     }
 
     .s1-sc1 {
-        width: 55%;
-        gap: 5px;
+        width: 100%;
+        max-width: 320px;
+    }
+    
+    .s1-hea {
+        right: 120px;
+    }
+    
+    #s1-heading1,
+    #s1-heading2 {
+        margin-bottom: 5px;
+    }
+    
+    #s1-par {
+        width: 500px;
+        text-align: justify;
     }
 
     #line {
-        width: 60%;
         height: 2px;
-        background-color: #AC045C;
     }
 
     #s2 {
@@ -56,15 +64,17 @@
     }
 
     #s2-heading {
-        font-size: 45px;
-        letter-spacing: 8px;
+        font-size: 48px;
+        letter-spacing: 5px;
     }
 
     .swiper {
-        max-width: 1024px;
-        max-height: 550px;
+        width: 100%;
+        max-width: 750px;
+        height: 100%;
+        max-height: 400px;
+    
     }
-
 
     #s2-img1,
     #s2-img2,
@@ -130,7 +140,7 @@
     }
 
     #s8 {
-        padding: 25px;
+        padding: 25px ;
     }
 
     #s8-heading {
@@ -142,17 +152,19 @@
         width: 100%;
     }
 
+    #s9{
+        margin-bottom: 50px;
+        padding: 25px 20px;
+    }
+
     #s9-img1 {
-        width: 50%;
-        max-width: 350px;
+        width: 100%;
+        max-width: 320px;
         align-self: flex-start;
-        animation: v1 linear;
     }
 
     #s9-para {
-        width: 55%;
-        font-size: 16px;
-        text-align: justify;
+        gap: 6.25px;
     }
 
     .s9-sh1 {
@@ -163,7 +175,7 @@
 
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 756px) {
     * {
         font-size: 12px;
     }
@@ -191,63 +203,69 @@
     }
 
     .heading {
-        font-size: 28px;
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
     }
 
     .s1-c1 {
         flex-direction: column;
     }
 
-
-    #s1-img1 {
-        width: 60%;
+    .s1-sc1 {
+        width: 300px;
         align-self: center;
     }
 
-    .s1-sc1 {
-        width: 80%;
+    #s1-img {
+        width: 100%;
+        display: block;
+    }
+
+    #s1-img1 {
+        display: none;
     }
 
     .s1-hea {
-        position: none;
-        right: 0;
+        display: none;
     }
 
     #s1-par {
-        position: none;
-        top: 0;
-        left: 0;
+        width: 80%;
     }
 
     #line {
         margin-top: 5px;
     }
 
+
     #s2 {
         padding: 12.5px;
     }
 
-    #s2-img1,
-    #s2-img2,
-    #s2-img3,
-    #s2-img4 {
+    #s2-heading {
+        font-size: 32px;
+        letter-spacing: 2px;
         width: 100%;
-        border-Radius: 20px;
+        text-align: center;
     }
 
     .swiper {
         width: 100%;
-        max-width: 600px;
-        height: 50%;
-        max-height: 400px;
+        max-width: 350px;
+        height: 100%;
+        max-height: 200px;
+    
     }
 
     #s2-img1,
     #s2-img2,
     #s2-img3,
     #s2-img4 {
+        width: 100%;
         border-Radius: 20px;
     }
+
 
     #s3-heading {
         font-size: 20px;
@@ -349,15 +367,17 @@
     .s9-c1 {
         flex-direction: column;
     }
+    
 
     #s9-img1 {
         width: 50%;
+        max-width: 280px;
         align-self: center;
     }
 
     #s9-para {
         width: 80%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .s9-sh1 {
