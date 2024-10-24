@@ -1,6 +1,6 @@
 @media screen and (max-width:1150px) {
     * {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.10;
     }
 
@@ -31,12 +31,20 @@
 
       /* section1 */
     #s1{
-        padding: 25px;
+        padding: 25px 12.5px;
+
     }
 
-    .s1-sc1 {
-        width: 100%;
-        max-width: 320px;
+    .s1-c1{
+        width: 750px;
+    }
+
+    .s1-ssc1 {
+        width: 300px;
+    }
+    
+    #s1-ssc2 {
+        width: 450px;
     }
     
     .s1-hea {
@@ -45,16 +53,18 @@
     
     #s1-heading1,
     #s1-heading2 {
+        font-size: 48px;
         margin-bottom: 5px;
     }
     
     #s1-par {
-        width: 500px;
+        width: 100%;
         text-align: justify;
     }
 
     #line {
         height: 2px;
+        width: 350px;
     }
 
     #s2 {
@@ -213,35 +223,47 @@
         border-radius: 20px;
     }
 
-    .s1-c1 {
-        flex-direction: column;
+    .s1-c1{
+        max-width: 350px;
+        width: 100%;
     }
 
     .s1-sc1 {
-        width: 300px;
+        flex-direction: column;
+    }
+
+    .s1-ssc1 {
+        width: 100%;
+        max-width: 300px;
         align-self: center;
+    }
+    
+    #s1-ssc2 {
+        width: 100%;
     }
 
     #s1-img {
-        width: 100%;
-        max-width: 350px;
-        display: block;
+        display: none;
     }
 
     #s1-img1 {
-        display: none;
+        width: 100%;
+        display: block;
     }
 
     .s1-hea {
         display: none;
     }
 
-    #s1-par {
-        width: 80%;
+    #s1-para {
+        position: static;
     }
 
     #line {
         margin-top: 5px;
+        width: 50%;
+        position: relative;
+        right: 25px;
     }
 
     #s2 {
