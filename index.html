@@ -32,8 +32,8 @@
         <section id="s1">
             <div class="s1-c1">
                 <div class="s1-sc1">
-                    <img src="./asset/s1-img1.png" alt="s1-img1" id="s1-img1">
                     <img src="./asset/s1-img.png" alt="s1-img" id="s1-img">
+                    <img src="./asset/s1-img1.png" alt="s1-img1" id="s1-img1">
                 </div>
                 <div id="s1-par">
                     <div class="s1-hea">
@@ -70,40 +70,50 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="./asset/s2/s2-img1.png" alt="s2-img1" id="s2-img1" >
+                        <img src="./asset/s2/s2-img1.png" alt="s2-img1" id="s2-img1">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./asset/s2/s2-img2.png" alt="s2-img2" id="s2-img2" >
+                        <img src="./asset/s2/s2-img2.png" alt="s2-img2" id="s2-img2">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./asset/s2/s2-img3.png" alt="s2-img3" id="s2-img3" >
+                        <img src="./asset/s2/s2-img3.png" alt="s2-img3" id="s2-img3">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./asset/s2/s2-img4.png" alt="s2-img4" id="s2-img4" >
+                        <img src="./asset/s2/s2-img4.png" alt="s2-img4" id="s2-img4">
                     </div>
                 </div>
             </div>
         </section>
         <section id="s3">
             <h1 class="heading" id="s3-heading">CAMPAIGNS THAT MAKE A MARK!</h1>
-            <div class="s3-c1">
-                <div class="s3-sc1">
-                    <h3 class="s3-subheading">Best Switch Bus</h3>
-                    <img src="./asset/s3/s3-img1.png" alt="s3-img1" id="s3-img1">
+            <div class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="s3-c1">
+                            <h3 class="s3-subheading">Best Switch Bus</h3>
+                            <img src="./asset/s3/s3-img1.png" alt="s3-img1" id="s3-img1">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="s3-c1">
+                            <h3 class="s3-subheading">BQS</h3>
+                            <img src="./asset/s3/s3-img2.png" alt="s3-img1" id="s3-img1">
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="s3-c1">
+                            <h3 class="s3-subheading">Digital</h3>
+                            <img src="./asset/s3/s3-img3.png" alt="s3-img1" id="s3-img1">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="s3-c1">
+                            <h3 class="s3-subheading">Metro Station</h3>
+                            <img src="./asset/s3/s3-img4.png" alt="s3-img1" id="s3-img1">
+                        </div>
+                    </div>
                 </div>
-                <div class="s3-sc1">
-                    <h3 class="s3-subheading">BQS</h3>
-                    <img src="./asset/s3/s3-img2.png" alt="s3-img1" id="s3-img1">
-                </div>
-                <div class="s3-sc1">
-                    <h3 class="s3-subheading">Digital</h3>
-                    <img src="./asset/s3/s3-img3.png" alt="s3-img1" id="s3-img1">
-                </div>
-                <div class="s3-sc1">
-                    <h3 class="s3-subheading">Metro Station</h3>
-                    <img src="./asset/s3/s3-img4.png" alt="s3-img1" id="s3-img1">
-                </div>
-            </div>
         </section>
         <section id="s4">
             <h1 class="heading" id="s4-heading">NEW CLIENTS ONBOARDED</h1>
@@ -350,6 +360,7 @@
             </div>
         </section>
     </main>
+    
     <!-- Initialize Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </script>
@@ -370,6 +381,18 @@
         var swiper2 = new Swiper(".mySwiper2", {
             slidesPerView: 2,
             loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            }
+        });
+
+        var swiper = new Swiper(".mySwiper3", {
+            mousewheel: {
+                thresholdDelta: 7,
+            },
+            loop: true,
+            slidesPerView: 1,
             autoplay: {
                 delay: 5000,
                 disableOnInteraction: false,
